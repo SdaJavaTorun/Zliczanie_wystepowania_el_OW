@@ -11,17 +11,13 @@ public class Main {
 
         for (int i =0; i<a.length; i++)
         {
+            //instrukcja warunkowa sprawdza, czy el x jest rowny elementowi z tablicy
             if(a[i] == x){
 
-                wynik = wynik + 1;
+                wynik = wynik + 1; //dodaje do siebie znalezione elementy
 
             }
-
-
-
-
         }
         System.out.println("Element x wystepuje "+wynik+" razy");
-
     }
 }
